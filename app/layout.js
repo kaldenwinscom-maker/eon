@@ -1,0 +1,11 @@
+export const metadata = { title: "Eon" };
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en">
+      <body style={{ margin: 0, fontFamily: "system-ui, sans-serif", background: "#0f0f14", color: "#eee" }}>
+        {children}
+      </body>
+    </html>
+  );
+}
